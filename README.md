@@ -4,7 +4,7 @@ A FullStack MERN Project for Bus-Booking...
 This is a Simple Bus-booking web application project where user can book
 bus by selecting Source city,Destination city and Date.
 
-Technologies i have used in this Projet are:-
+Technologies i have used in this Projet are:-        
 #Frondend :-
 HTML CSS JAVASCRIPT TAILWIND REACTJS REDUX FROMIK .      
 #Backend :-
