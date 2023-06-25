@@ -7,6 +7,12 @@ const router = express.Router();
 
 //----------USED APIS----------
 
+//----------TEST APIS----------
+router.get('/',async (req,res)=>{
+  try {
+    res.status(200).send("The Server is Working Fine");
+  }catch (err) {res.status(500).send(err)}
+})
 //-------GET REQUEST FOR TRIPS API-------
 router.get('/trips',async (req,res)=>{
   try {
