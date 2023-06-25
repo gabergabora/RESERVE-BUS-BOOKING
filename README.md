@@ -6,7 +6,7 @@ bus by selecting Source city,Destination city and Date.
 
 Technologies i have used in this Projet are:-
 #Frondend :-
-HTML CSS JAVASCRIPT TAILWIND REACTJS REDUX FROMIK .
+HTML CSS JAVASCRIPT TAILWIND REACTJS REDUX FROMIK .      
 #Backend :-
 NODEJS EXPRESSJS .
 #Database:-
