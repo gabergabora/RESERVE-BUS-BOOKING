@@ -1,7 +1,8 @@
 # RESERVE-BUS-BOOKING
 A FullStack MERN Project for Bus-Booking...
 
-This is a Simple Bus-booking web application project where user can book bus by selecting Source city,Destination city and Date.
+This is a Simple Bus-booking web application project where user can book
+bus by selecting Source city,Destination city and Date.
 
 Technologies i have used in this Projet are:-
 #Frondend :-
@@ -19,6 +20,8 @@ For Client(Frontend)-
 For Server(Backend)-
 1-npm i --to install all required dependencies...
 2-node index.js --to start the server...
+
+Hope you'll like the Project..Thanks for Visiting...
 
 # Getting Started with Create React App
 
