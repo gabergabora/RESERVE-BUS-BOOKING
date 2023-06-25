@@ -32,7 +32,7 @@ export default function Buses() {
         }finally{setIsLoading(false)};
       };
     fetchData();
-  });
+  },[]);
     const objectArray = [
         {
           label: (
