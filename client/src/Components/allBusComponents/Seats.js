@@ -126,9 +126,11 @@ export default function Seats(props) {
                 <h1 className="sm:text-md text-sm font-bold">{selectedSeat.length * Number(props.data.busFare)}</h1>
               </div>
               <div>
+                <Link to="/info">
                 <button onClick={handleClick} className="bg-[#FF8700] text-white font-[Poppins] mt-2 py-1 w-full rounded hover:scale-95 duration-500">
-                  <Link to="/info">Proceed to Book</Link>
+                  Proceed to Book
                 </button>
+                </Link>
               </div>
             </div>
           </div>
