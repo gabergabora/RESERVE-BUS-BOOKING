@@ -45,9 +45,11 @@ export default function Main() {
             Search
           </button>
           :
-          <button onClick={()=>handleClick()} className="text-white hover:scale-95 bg-[#FF8700] sm:mb-1 mb-5 mt-6 p-3 sm:text-3xl text-lg rounded-xl sm:px-12 px-4">
-            <Link to="/allBuses">Search</Link>
-          </button>
+          <Link to="/allBuses">
+            <button onClick={()=>handleClick()} className="text-white hover:scale-95 bg-[#FF8700] sm:mb-1 mb-5 mt-6 p-3 sm:text-3xl text-lg rounded-xl sm:px-12 px-4">
+            Search
+            </button>
+          </Link>
           }
     </div>
   )
