@@ -1,8 +1,6 @@
-require('dotenv').config();
-
 const mongoose = require('mongoose');
 const { tripSchema,bookedTicketsSchema } = require('../modals/schema');
-const MongoUrl=process.env.MONGO_URL;
+const MongoUrl="mongodb+srv://rg1224362:Openserver24@cluster001.tclpf8d.mongodb.net/reserve";
 
 mongoose.connect(MongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => { 
