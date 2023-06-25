@@ -23,7 +23,7 @@ export default function Card(props) {
         }
     
         timeDiff(EndTime, startTime);
-      });
+      },[EndTime, startTime]);
     if(fromTo){
         const date = new Date(fromTo.Date);
         formattedDate = date.toLocaleDateString("en-US", {day: "numeric",month: "short"});
