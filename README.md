@@ -12,9 +12,9 @@ NODEJS EXPRESSJS .
 #Database:-
 MONGODB(mongoose) .
 
-#AFTER_CLONING_PROCESS:
-For Client(Frontend)- 
-1-npm i --to install all required dependencies...
+#AFTER_CLONING_PROCESS:      
+For Client(Frontend)-         
+1-npm i --to install all required dependencies...      
 2-npm run start --to start the development Server...
 
 For Server(Backend)-
